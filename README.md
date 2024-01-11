@@ -65,7 +65,7 @@ use [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutor
 
 ```bin/console plugin:deactivate PluginName ```
 
-Use [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli) to change the theme for a saleschannel:
+Use commands to change the theme:
 
 ```bin/console theme:change --no-compile```
 
