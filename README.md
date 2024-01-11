@@ -23,7 +23,7 @@ shopware6 directory for third party plugins:
 
 ```<project>/src/vendor/manufacturer/PluginName```
 
-Adding, removing and updating plugins
+Adding, removing or updating plugins
 
 ```composer require <pluginprefix/plugin-name>```
 
