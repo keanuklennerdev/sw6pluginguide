@@ -2,10 +2,10 @@
 
 ### Table of contents
  - [Foreword](#Foreword)
- - [Software requirements](#Softwarerequirements)
- - [Handle custom and third party plugins with composer](#Handlecustomandthirdpartypluginswithcomposer)
- - [Create custom plugins](#Createcustomplugins)
- - [Create and install custom theme](#Createandinstallcustomtheme)
+ - [Software requirements](#Software-requirements)
+ - [Handle custom and third party plugins with composer](#Handle-custom-and-third-party-plugins-with-composer)
+ - [Create custom plugins](#Create-custom-plugins)
+ - [Create and install custom theme](#Create-and-install-custom-theme)
 
 #### Foreword
  This instrcution does not explain how to work with your IDE, WSL2 System or in Linux in general.
