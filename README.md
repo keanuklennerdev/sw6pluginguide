@@ -36,7 +36,9 @@ Adding, removing or updating plugins
 ***Don't forget to stay synchronized with composer.json and composer.lock from your VCS and add changes if you add or remove modules!!!***
 
 #### Create custom plugins
-A shopware6 plugin needs a plugin base class and a composer.json to work properly. You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConnePluginName).
+A shopware6 plugin needs a plugin base class and a composer.json to work properly.
+You are able to generate those with the shopware6 toolbox plugin for phpstorm.
+You can also find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConnePluginName).
 
 To make the plugin work in the shop use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
 
@@ -49,7 +51,9 @@ To make the plugin work in the shop use these [shopware console commands](https:
 ```bin/console plugin:deactivate PluginName ```
 
 #### Create and install custom theme
-A shopware6 theme plugin needs a plugin base class, composer.json and theme.json file to work properly. You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConneThemeName).
+A shopware6 theme plugin needs a plugin base class, composer.json and theme.json file to work properly.
+You are able to generate those with the shopware6 toolbox plugin for phpstorm.
+You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConneThemeName).
 
 To install the theme for the shop use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
 
