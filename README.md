@@ -9,7 +9,7 @@
 
 #### Foreword
  This instrcution does not explain how to work with your IDE, WSL2 System or in Linux in general.
-Detailed knowledge about the tools and systems we essential!
+Detailed knowledge about the tools and systems are essential!
 
 #### Software requirement
 You need some software to create shopware6 custom plugins...
