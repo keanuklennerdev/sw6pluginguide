@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <!-- services -->
+        <service id="Prefix\PluginName\Services\ServiceName">
+            <!-- plugin configration service -->
+            <argument type="service" id="Shopware\Core\System\SystemConfig\SystemConfigService" />
+            <argument type="service" id="Prefix\PluginName\Services\ServiceName" />
+            <argument type="service" id="entity.repository" />
+        </service>
+
+        <!-- subscriber -->
+        <service id="Prefix\PluginName\Subscriber\SubscriberName">
+            <argument type="service" id="Prefix\PluginName\Services\ServiceName" />
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
+        <!-- controller -->
+        <service id="Prefix\PluginName\<Storefront/Administration>\Controller\CustomFormController" public="true">
+            <argument type="service" id="Prefix\PluginName\Services\ServiceName" />
+            <call method="methodName">
+                <argument type="service" id="idName"/>
+            </call>
+        </service>
+    </services>
+</container>
