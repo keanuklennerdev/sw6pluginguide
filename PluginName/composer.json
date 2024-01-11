@@ -10,8 +10,7 @@
         }  
     ],  
     "require": {  
-        "shopware/core": "6.4.*",  
-        "conne/plugin-name-other": "1.2.*"  
+        "shopware/core": "6.4.*"
     },  
     "extra": {  
         "shopware-plugin-class": "Conne\\PluginName\\PluginName",  
