@@ -1,0 +1,46 @@
+{
+    "name": "ThemeName",
+    "description": {
+        "de-DE": "Theme Name",
+        "en-GB": "Theme Name"
+    },
+    "author": "connectiv! eSolutions GmbH",
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@ThemeName"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@Storefront",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "@Storefront",
+        "app/storefront/dist/storefront/js/theme-name.js"
+    ],
+    "asset": [
+        "@Storefront",
+        "app/storefront/src/assets"
+    ],
+    "config": {
+        "fields": {
+            "sw-color-brand-primary": {
+                "value": "#E8E1D9"
+            },
+            "sw-color-brand-secondary": {
+                "value": "#F5F5F5"
+            },
+            "sw-color-brand-tertiary": {
+                "value": "#8C888C"
+            },
+            "sw-text-color": {
+                "value": "#2B2B2A"
+            },
+            "sw-border-color": {
+                "value": "#898988"
+            }
+        }
+    }
+}
+

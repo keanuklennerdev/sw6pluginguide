@@ -1,0 +1,32 @@
+{
+    "name": "conne/theme-name",
+    "description": "Plugin to apply the conne theme",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "connectiv! eSolutions GmbH"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Conne\\ThemeName\\ThemeName",
+        "label": {
+            "de-DE": "Conne Theme",
+            "en-GB": "Conne Theme"
+        },
+        "description": {
+            "de-DE": "Conne Theme",
+            "en-GB": "Conne Theme"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Conne\\ThemeName\\": "src/"
+        }
+    }
+}
+
