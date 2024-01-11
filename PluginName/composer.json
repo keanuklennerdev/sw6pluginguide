@@ -1,0 +1,32 @@
+{  
+    "name": "conne/plugin-name",  
+    "description": "This plugin does...",  
+    "version": "1.0.0",  
+    "type": "shopware-platform-plugin",  
+    "license": "MIT",  
+    "authors": [  
+        {  
+            "name": "connectiv! eSolutions GmbH"  
+        }  
+    ],  
+    "require": {  
+        "shopware/core": "6.4.*",  
+        "conne/plugin-name-other": "1.2.*"  
+    },  
+    "extra": {  
+        "shopware-plugin-class": "Conne\\PluginName\\PluginName",  
+        "label": {  
+            "de-DE": "ConnePluginNameDe",  
+            "en-GB": "ConnePluginNameEn"  
+        },  
+        "description": {  
+            "de-DE": "Dieses Plugin macht...",  
+            "en-GB": "This plugin does..."  
+        }  
+    },  
+    "autoload": {  
+        "psr-4": {  
+            "Conne\\PluginName\\": "src/"  
+        }  
+    }  
+}
