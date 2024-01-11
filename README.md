@@ -55,7 +55,7 @@ A shopware6 theme plugin needs a plugin base class, composer.json and theme.json
 You are able to generate those with the shopware6 toolbox plugin for phpstorm.
 You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConneThemeName).
 
-To install the theme for the shop use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
+use [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli) to install the theme plugin:
 
 ```bin/console plugin:refresh```
 
@@ -65,7 +65,7 @@ To install the theme for the shop use these [shopware console commands](https://
 
 ```bin/console plugin:deactivate PluginName ```
 
-To change the saleschannel theme to yours use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
+Use [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli) to change the theme for a saleschannel:
 
 ```bin/console theme:change --no-compile```
 
