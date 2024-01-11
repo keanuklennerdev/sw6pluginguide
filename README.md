@@ -23,9 +23,13 @@ shopware6 directory for third party plugins:
 ```<project>/src/vendor/manufacturer/PluginName```
 
 Adding, removing and updating plugins
+
 ```composer require <pluginprefix/plugin-name>```
+
 ```composer remove <pluginprefix/plugin-name>```
+
 ```composer update <pluginprefix/plugin-name>```
+
 ```composer install```
 
 ***Don't forget to stay synchronized with composer.json and composer.lock from your VCS and add changes if you add or remove modules!!!***
@@ -34,21 +38,31 @@ Adding, removing and updating plugins
 A shopware6 plugin needs a plugin base class and a composer.json to work properly. You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConnePluginName).
 
 To make the plugin work in the shop use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
+
 ```bin/console plugin:refresh```
+
 ```bin/console plugin:install PluginName (--activate, --clearCache)```
+
 ```bin/console plugin:activate PluginName ```
+
 ```bin/console plugin:deactivate PluginName ```
 
 #### Create and install custom theme
 A shopware6 theme plugin needs a plugin base class, composer.json and theme.json file to work properly. You can find templates for those files in the [repository](https://github.com/keanuklennerdev/sw6plugins/tree/main/ConneThemeName).
 
 To install the theme for the shop use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
+
 ```bin/console plugin:refresh```
+
 ```bin/console plugin:install PluginName (--activate, --clearCache)```
+
 ```bin/console plugin:activate PluginName ```
+
 ```bin/console plugin:deactivate PluginName ```
 
 To change the saleschannel theme to yours use these [shopware console commands](https://docs.shopware.com/en/shopware-6-en/tutorials-and-faq/shopware-cli):
+
 ```bin/console theme:change --no-compile```
+
 ```bin/console theme:compile```
 
