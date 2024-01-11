@@ -20,6 +20,7 @@ You need some software to create shopware6 custom plugins...
 
 #### Handle custom and third party plugins with composer
 shopware6 directory for third party plugins:
+
 ```<project>/src/vendor/manufacturer/PluginName```
 
 Adding, removing and updating plugins
