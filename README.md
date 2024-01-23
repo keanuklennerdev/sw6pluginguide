@@ -69,5 +69,5 @@ Use commands to change the theme:
 
 ```bin/console theme:change --no-compile```
 
-```bin/console theme:compile```
+```bin/build-storefront.sh```
 
